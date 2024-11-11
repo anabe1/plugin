@@ -5,11 +5,13 @@ en:
       repo5: "- Special Collections"
       repo6: "- University Archives"
   brand:
+    carousel_item05: Royal Society
+    carousel_item06: CBA
     welcome_message: |
         <h3>About the Archival Collections</h3>
         <p>The Chinese University of Hong Kong Library preserves and makes accessible a vast range of archival collections to facilitate learning, teaching, and research. The finding aids on this site provide a descriptive guide to the Collections, including the historical context, scope and content, arrangement of the collections, and any access or use restrictions. The Collections described in finding aids are from two repositories at the Library:</br>
-        -Special Collections (<a href="https://archives.lib.cuhk.edu.hk/spc" target="_new" >https://archives.lib.cuhk.edu.hk/spc</a>)<br/>
-        -University Archives (<a href="https://archives.lib.cuhk.edu.hk/uar" target="_new" >https://archives.lib.cuhk.edu.hk/uar</a>)</p>   
+        <i class="fa fa-home"></i> <b> Special Collections</b>(<a href="https://archives.lib.cuhk.edu.hk/spc" target="_new" >https://archives.lib.cuhk.edu.hk/spc</a>)<br/>
+        <i class="fa fa-home"></i><b> University Archives</b>(<a href="https://archives.lib.cuhk.edu.hk/uar" target="_new" >https://archives.lib.cuhk.edu.hk/uar</a>)</p>   
     welcome_search_tips: |
         <h3>Search Tips</h3>
         <p>For a basic search, use the search box above to enter words or phrases. By default, every word or phrases entered in the search box returns results containing all words. Other ways to refine the search include:<br/>
