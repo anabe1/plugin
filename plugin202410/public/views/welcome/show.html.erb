@@ -21,6 +21,6 @@
    	<%= t('brand.welcome_search_tips').html_safe %>
   </div>
   <div class="col-sm-4 welcome-carousel">
-    <%= render partial:'carousel' %>
+    <%= render partial:'carousel',locals: { uri: 'ALL' } %>
   </div>
 </div>
