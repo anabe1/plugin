@@ -19,6 +19,6 @@
 	  </div>
    </div>
    <div class="col-sm-4">
- 	<%= render partial:'welcome/carousel' %>
+        <%= render partial:'welcome/carousel',locals: { uri: @result['uri'] } %>
    </div>
 </div>
