@@ -40,10 +40,9 @@
 
          <% if uri == '/repositories/6' || uri == 'ALL' %>
             <% first_item_class = (uri == '/repositories/6') ? 'item active' : 'item' %>
-            <div class="item">
+            <div class="<%= first_item_class %>">
               <%= image_tag "#{@base_url}/assets/images/photo_UA_01.jpg", :alt => I18n.t("brand.carousel_item05") %>
-            </div>
-          
+            </div> 
             <div class="item">
               <%= image_tag "#{@base_url}/assets/images/photo_UA_02.jpg", :alt => I18n.t("brand.carousel_item06") %>
             </div>
