@@ -2,12 +2,11 @@
 <div class="website">
   <a target="_blank" href="<%= url %>"><%= url  %></a>
 </div>
-<br />
 <% end %>
 
 <% if info["top"]["description"].present? %>
 <div class="description">
-  <p><b><%= t('description') %>: </b> <br/><%= simple_format(info["top"]["description"]) %></p>
+  <p><%= simple_format(info["top"]["description"]) %></p>
 </div>
 <% end %>
 
