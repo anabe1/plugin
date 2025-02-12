@@ -4,7 +4,7 @@
             <div class="card" style="background-color: #f8f9fa; border-radius: 15px; padding: 40px 40px; width: fit-content; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: relative;">
                 <a href="https://archives.lib.cuhk.edu.hk/spc">
                     <div class="card-body text-center">
-                        <img src="/assets/images/Special_Collections_thumbnail.jpg" class="card-img" alt="Collection Development and Access Policy" width="120" height="120" style="max-width: 100%; height: auto;">
+                        <%= image_tag "#{@base_url}/assets/images/Special_Collections_thumbnail.jpg", :alt => "CUHK History Gallery", :width => 120, :height => 120, :style => "max-width: 100%; height: auto;", :class => "card-img" %>
                         <h5 class="card-title mt-3">Special Collections<br> (https://archives.lib.cuhk.edu.hk/spc)</h5>
                     </div>
                 </a>
@@ -14,7 +14,7 @@
             <div class="card" style="background-color: #f8f9fa; border-radius: 15px; padding: 40px 40px; width: fit-content; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: relative;">
                 <a href="https://archives.lib.cuhk.edu.hk/uar">
                     <div class="card-body text-center">
-                        <img src="/assets/images/University_Archives_thumbnail.jpg" class="card-img" alt="CUHK History Gallery" width="120" height="120" style="max-width: 100%; height: auto;">
+                        <%= image_tag "#{@base_url}/assets/images/University_Archives_thumbnail.jpg", :alt => "CUHK History Gallery", :width => 120, :height => 120, :style => "max-width: 100%; height: auto;", :class => "card-img" %>
                         <h5 class="card-title mt-3">University Archives<br> (https://archives.lib.cuhk.edu.hk/uar)</h5>
                     </div>
                 </a>
